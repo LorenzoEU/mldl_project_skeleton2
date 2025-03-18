@@ -9,6 +9,8 @@ import requests
 from zipfile import ZipFile
 from io import BytesIO
 import numpy as np
+import matplotlib.pyplot as plt
+
 # Define transformations for the dataset
 transform = transforms.Compose([
     transforms.Resize((128, 128)),
